@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="EtherSync.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="266"/>
+        <UsageCount Value="251"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/packages/fcl-base/src/custapp.pp"/>
+        <UnitName Value="CustApp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <CursorPos X="23" Y="74"/>
+        <UsageCount Value="131"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/objpas/math.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="241"/>
+        <CursorPos X="3" Y="260"/>
+        <UsageCount Value="122"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/packages/fcl-db/src/base/db.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1191"/>
+        <CursorPos X="14" Y="1214"/>
+        <UsageCount Value="120"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/packages/fcl-base/src/contnrs.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="476"/>
+        <CursorPos X="3" Y="483"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="-1"/>
+    </General>
+    <JumpHistory HistoryIndex="-1"/>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="2">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="/usr/share/fpcsrc/3.0.4/packages/rtl-objpas/src/inc/dateutil.inc"/>
+        <Line Value="2154"/>
+      </Item1>
+      <Item2>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="/usr/share/fpcsrc/3.0.4/packages/fcl-base/src/custapp.pp"/>
+        <Line Value="593"/>
+      </Item2>
+    </BreakPoints>
+    <Watches Count="8">
+      <Item1>
+        <Expression Value="FAddressHashes[9]"/>
+      </Item1>
+      <Item2>
+        <Expression Value="FAddressHashes[1]"/>
+      </Item2>
+      <Item3>
+        <Expression Value="FIniFileName"/>
+      </Item3>
+      <Item4>
+        <Expression Value="Address"/>
+      </Item4>
+      <Item5>
+        <Expression Value="NotifyObject.URL"/>
+      </Item5>
+      <Item6>
+        <Expression Value="NotifyObject.Name"/>
+      </Item6>
+      <Item7>
+        <Expression Value="NotifyObject.AType"/>
+      </Item7>
+      <Item8>
+        <Expression Value="NotifyObject.Limit"/>
+      </Item8>
+    </Watches>
+  </Debugging>
+</CONFIG>

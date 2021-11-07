@@ -1,0 +1,13 @@
+[blockchain]
+lastblock=1
+
+[database]
+ConnectorType=mysql 5.7
+HostName=localhost
+DatabaseName=yourdbname
+UserName=mysqlusername
+Password=mysqlpassword
+
+[rpc]
+url=https://rpc.ether1.org
+

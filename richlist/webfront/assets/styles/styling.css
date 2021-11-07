@@ -1,0 +1,103 @@
+body
+{
+  font-size: 0.8em;
+}
+
+td.text-center
+{
+	text-align: center;
+}
+
+td.text-right
+{
+	text-align: right;	
+}
+
+#maincontent
+{
+	width: 100%;	
+}
+
+#richlisttable_wrapper
+{
+	width: 100%; 
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+#richlisttable_header
+{
+	max-width: 1600px;
+}
+
+#richlisttable
+{
+
+	width:100%
+}
+
+.card
+{
+	border:	0px none;
+}
+
+label.addressLabel
+{
+	font-size: 1em;
+	color: #009688;
+}
+
+.searchFilter
+{
+	width: 30em;
+}
+
+.row
+{
+	align-items: center;
+    justify-content: center;
+}
+
+#pageLogo {
+	text-align: left;
+	padding-left: 0px;
+}
+
+.dtr-details
+{
+	width: 100%;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr[role="row"] > th:first-child::before
+{
+	top: 50%;
+	margin-top: -8px;
+}
+
+@media screen and (max-width: 1600px) 
+{
+	#richlisttable_wrapper
+	{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	#richlisttable_header
+	{
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+}
+
+@media screen and (max-width: 500px) 
+{
+	body
+	{
+  		font-size: 0.6em !important;
+	}
+	
+	table.dataTable thead th, table.dataTable tfoot th 
+	{
+    	font-size: 1em !important;
+	}
+}
