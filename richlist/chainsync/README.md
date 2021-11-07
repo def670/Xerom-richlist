@@ -1,12 +1,14 @@
 ## 1. Compilation
 
-To compile you need to first install FPC. To do this on Ubuntu, the simplest way is to download the DEB package and install it.
-the package is available [here](https://sourceforge.net/projects/lazarus/files/Lazarus%20Linux%20amd64%20DEB/Lazarus%201.8.4/fpc_3.0.4-3_amd64.deb/download).
+To compile you need to first install FPC. To do this on Ubuntu:
+sudo apt-get install fpc
 
 You will also need to install mysql client lib: **sudo apt install libmysqlclient-dev**
 
 Then go to the "chainsync" directory and simply do: **fpc -B -Fu"libs/synapse" EtherSync.lpr**
-You should get and "EtherSync" executable. Thats it.
+You should get and "EtherSync" executable. 
+You will need to initialize your database with: mysql etho < etherchain.sql
+i recommend https://stackoverflow.com/questions/10769344/create-mysql-database-with-sql-file/10769570 for help with initialization (it helped me)
 
 ## 2. Installation
 
@@ -62,4 +64,4 @@ Now you can start it or stop it with:
 - **print log**: journalctl -e -u EtherSync.service
 - **reload conf**: systemctl daemon-reload
 
-Not that if you run your own geth RPC you have to have it running and fully synced
+Make sure geth is fully synced before starting EtherSync!
