@@ -11,6 +11,7 @@ Then go to the "chainsync" directory and simply do:
 
 You should get and "EtherSync" executable. 
 You will need to initialize your database with: mysql etho < etherchain.sql
+
 i recommend https://stackoverflow.com/questions/10769344/create-mysql-database-with-sql-file/10769570 for help with initialization (it helped me)
 
 ## 2. Installation
