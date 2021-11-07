@@ -10,8 +10,8 @@ In order for richlist to work it needs the data from the etho geth RPC. You can 
 
 ## 3. Chainsync (EtherSync) module
 
-This is the module that processes the transactions from the blockchain and stores them in the local mysql DB. It also calculates the data for the richlist. It must run as system service. How to set it up is described [here](https://github.com/def670/Xerom-richlist/blob/master/richlist/chainsync/README.md).
+This is the module that processes the transactions from the blockchain and stores them in the local mysql DB. It also calculates the data for the richlist. It must run as system service. How to set it up is described [here](https://github.com/def670/Xerom-richlist/blob/master/richlist/chainsync/).
 
 ## 4. Webfront module (PHP page)
 
-This is the user interface, the fronend web page. Its a simple PHP web page that gets data from the mysql DB. How to set it up is described [here](https://github.com/taeguscromis/etho/tree/master/richlist/webfront).
+This is the user interface, the fronend web page. Its a simple PHP web page that gets data from the mysql DB. How to set it up is described [here](https://github.com/def670/Xerom-richlist/tree/master/richlist/webfront).
