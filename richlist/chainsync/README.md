@@ -1,11 +1,14 @@
 ## 1. Compilation
 
 To compile you need to first install FPC. To do this on Ubuntu:
-sudo apt-get install fpc
+**sudo apt-get install fpc**
 
-You will also need to install mysql client lib: **sudo apt install libmysqlclient-dev**
+You will also need to install mysql client lib: 
+**sudo apt install libmysqlclient-dev**
 
-Then go to the "chainsync" directory and simply do: **fpc -B -Fu"libs/synapse" EtherSync.lpr**
+Then go to the "chainsync" directory and simply do: 
+**fpc -B -Fu"libs/synapse" EtherSync.lpr**
+
 You should get and "EtherSync" executable. 
 You will need to initialize your database with: mysql etho < etherchain.sql
 i recommend https://stackoverflow.com/questions/10769344/create-mysql-database-with-sql-file/10769570 for help with initialization (it helped me)
