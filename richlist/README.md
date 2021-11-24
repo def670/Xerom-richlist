@@ -1,12 +1,12 @@
 ## 1. Modules
 
-- Etho geth daemon with rcp
+- Xerom geth daemon with rcp
 - chainsync module (EtherSync)
 - webfront module (PHP page)
 
-## 2. Etho geth daemon
+## 2. Xerom geth daemon
 
-In order for richlist to work it needs the data from the etho geth RPC. You can either use remote RPC node or you can install local geth and use that. Local geth is recomended for the speed. If you do that however be sure that the chain is synced before starting the EtherSync module. For our instance using Xerom you can get geth like this:
+In order for richlist to work it needs the data from the xerom geth RPC. You can either use remote RPC node or you can install local geth and use that. Local geth is recomended for the speed. If you do that however be sure that the chain is synced before starting the EtherSync module. For our instance using Xerom you can get geth like this:
 
 **wget -N https://github.com/xero-official/go-xerom/releases/download/2.1.0/geth-linux.zip**
 
