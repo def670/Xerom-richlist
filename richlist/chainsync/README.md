@@ -26,7 +26,7 @@ If you need the notification to Discord feature for specific addresses just chec
 
 ```
 [blockchain]
-lastblock=Should be set to 1, to start at the chain beggining
+lastblock=Should be set to 1, to start at the chain begining
 
 [database]
 ConnectorType=Set it to the mysql version you have installed 
